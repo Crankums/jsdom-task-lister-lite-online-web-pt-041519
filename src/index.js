@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector.('#create-task-form').addEventListener("submit", addToList)
 
   function addToList(event) {
-
+    event.preventDefault()
+    let task = document.getElementById("new-task")
   }
 });
