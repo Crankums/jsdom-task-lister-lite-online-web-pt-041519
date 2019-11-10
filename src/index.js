@@ -1,12 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  document.querySelector.("#create-task-form").addEventListener("submit", addToList("submit"))
 
   function addToList(event) {
-    event.preventDefault()
-    let task = document.getElementById("new-task-description").value
-    let li = `<li>${task}</li>`
-    document.querySelector("#tasks").innerHTML += li
-    document.getElementById("new-task-description").value = ""
+    let ul = document.getElementById("tasks")
+
   }
 });
