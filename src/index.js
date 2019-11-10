@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   function addToList(event) {
     event.preventDefault()
     let task = document.getElementById("new-task-description").value
-    let li = `<li>${}`
+    let li = `<li>${task}</li>`
+    document.querySelector("#tasks").innerHTML += li
+    document.getElementById("new-task-description").value = ""
   }
 });
