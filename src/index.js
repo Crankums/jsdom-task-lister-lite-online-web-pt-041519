@@ -9,4 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault()
   }
   const form= document.getElementById('create-task-form')
+  form.addEventListener('submit', addToList)
 });
