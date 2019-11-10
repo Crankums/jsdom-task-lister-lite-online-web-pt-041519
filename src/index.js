@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  document.querySelector.('#create-task-form').addEventListener("submit")
+  document.querySelector.('#create-task-form').addEventListener("submit", addToList)
 });
