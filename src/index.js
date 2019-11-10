@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function addToList(event) {
     event.preventDefault()
-    let task = document.getElementById("new-task")
+    let task = document.getElementById("new-task-description").value
   }
 });
