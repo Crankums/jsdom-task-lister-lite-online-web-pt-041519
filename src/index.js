@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  document.querySelector.('#create-task-form').addEventListener("submit", addToList)
+  document.querySelector.("#create-task-form").addEventListener("submit", addToList("submit"))
 
   function addToList(event) {
     event.preventDefault()
